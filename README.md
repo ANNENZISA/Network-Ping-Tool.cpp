@@ -1,2 +1,4 @@
 # Network-Ping-Tool.cpp
-Creating a network ping tool in C++ for checking the status of an IP address or domain involves sending ICMP echo requests and waiting for replies. Note that ICMP may not be available on all networks or might be blocked by firewalls.  Below is a basic example using the &lt;WinSock2.h> library for Windows systems.
+Creating a network ping tool in C++ for checking the status of an IP address or domain involves sending ICMP echo requests and waiting for replies. Note that ICMP may not be available on all networks or might be blocked by firewalls.
+This is a basic example using the <WinSock2.h> library for Windows systems. For cross-platform compatibility, you might want to use a library like Boost.Asio or consider system-specific solutions for other operating systems.
+Note: This is Windows-specific and may require administrator privileges to execute. Additionally, ICMP packets might be blocked by firewalls, and the reliability of ICMP ping results may vary. For more advanced and cross-platform network functionality, you might want to explore libraries like Boost.Asio or consider system-specific solutions for other operating systems.
